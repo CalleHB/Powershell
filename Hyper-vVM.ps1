@@ -7,13 +7,13 @@ A short powershell script to make vm in Hyper-V
 $VM = Read-Host "Enter VM name"
 
 # Define the switch name
-$Switch = "LAN"
+$Switch = "SWITCH NAME IN HYPER-V"
 
 # Define the install media path
-$InstallMedia = "C:\Saker\ubuntu-24.04-live-server-amd64.iso"
+$InstallMedia = "PATH TO ISO FILE"
 
 # Define the VM path
-$VMPath = "\\CARL-MUSIC02\VMfolder\VHD"
+$VMPath = "PATH FOR VM CREATION"
 
 # Define the VHD path
 $VHD = "$VMPath\$VM.vhdx"
